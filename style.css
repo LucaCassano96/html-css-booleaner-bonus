@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{font-family: 'Roboto', sans-serif;}
+
+/* header */
+
+.header-page{
+    width: 100%;
+    height: 5rem;
+    border: 2px solid black;
+    background-image: url("img/pattern.png");
+    background-size: contain;
+    background-color: rgb(85, 166, 227);
+}
+
+
+.header-page img{
+    width: 15%;
+    margin: 1% 0 0 15% ;
+    
+    
+
+}
+
+.maincontainer{
+    width: 150vh;
+    min-height: 50vh ;
+    margin: auto;
+    margin-top: 1rem;
+    padding: 1%;
+}
+
+h1{
+    font-size: 1.75rem;
+}
+
+.writesby{
+    margin-top: 0.25rem;
+    font-size: 1rem;
+    color: rgb(106, 106, 106);
+    
+}
+
+.writesby span{
+    color:rgb(85, 166, 227) ;
+    font-weight: bold;
+}
+
+.img-tim img{
+    margin-top: 1rem;
+}
+
+.base-img-tim{
+    font-size: 0.60rem;
+}
+
+.text{
+    margin: 1rem 0 1rem 0;
+}
+
+.text span{
+    background-color: rgb(239, 204, 6);
+}
+
+ul{
+    margin-bottom: 2rem;
+    padding: 0.5rem;
+}
+
+
+.table-grid{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr 1fr 2fr;
+    background-color: rgb(79, 179, 255) ;
+}
+
+.tbody{
+    
+    background-color: rgb(175, 236, 255);
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    align-items: flex-end;
+    align-items: center;
+}
+
+.color{
+    background-color: #fff;
+}
+
+.footer{
+    width: 311px;
+    height: 217px;
+    color: #fff;
+    font-size: 1.25rem;
+    padding: 1rem;
+    font-weight: bold;
+    margin: 1rem 0 1rem 0;
+}
+
+.footer-img1{
+   background-image: url("img/graph.jpg");
+}
+
+.footer-img2{
+    background-image: url("img/monitor.jpg");
+ }
+ 
